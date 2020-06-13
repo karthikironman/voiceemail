@@ -1,0 +1,96 @@
+/* Cloak elements on initial load to hide the possible display of {{ ... }} 
+ * Add to the app tag or to specific tags
+ * To display "loading...", change to the following:
+ *    [v-cloak] > * { display:none }
+ *    [v-cloak]::before { content: "loading…" }
+ */
+[v-cloak] { display: none; }
+
+/*  Colours for Syntax Highlighted pre's */
+.syntax-highlight {color:white;background-color:black;padding:5px 10px;}
+.syntax-highlight > .key {color:#ffbf35}
+.syntax-highlight > .string {color:#5dff39;}
+.syntax-highlight > .number {color:#70aeff;}
+.syntax-highlight > .boolean {color:#b993ff;}
+#app_container{
+    max-width:100vw !important;
+    margin:0;
+    padding:0;
+}
+body{
+    overflow:hidden;
+}
+#app{
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+.logo{
+    height:4rem;
+    position:absolute;
+    left:1rem;
+}
+.map{
+    height:calc(100vh - 5rem);
+    width:100vw;
+    margin:0;
+    border:1px solid red;
+    position:absolute;
+    bottom:0;
+}
+.digi-text{
+    height:calc(100vh - 5rem);
+    width:100vw;
+    margin:0;
+    border:1px solid red;
+    position:absolute;
+    bottom:0;
+    z-index:1;
+    background:white;
+    font-size:80px;
+    color:BLACK;
+    text-align:center;
+    padding-top:15%;
+}
+.digi-video{
+    height:calc(100vh - 5rem);
+    width:100vw;
+    margin:0;
+    border:1px solid red;
+    position:absolute;
+    bottom:0;
+     z-index:1;
+      background:black;
+}
+#digi-click{
+
+}
+.digi-image{
+    height:calc(100vh - 5rem);
+    width:100vw;
+    margin:0;
+    border:1px solid red;
+    position:absolute;
+    bottom:0;
+     z-index:1;
+      background:white;
+}
+.digi-timer{
+    position:absolute;
+    right:1.8rem;
+    top:1.8rem;
+    height:3rem;
+    width:3rem;
+    background:brown;
+    font-weight:900;
+    color:white;
+    font-size:30px;
+    text-align:center;
+    border-radius:50%;
+    
+    
+}
+#videodigi{
+    width:100%;
+    height:100%;
+}

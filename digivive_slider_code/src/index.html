@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <title>DIGIVIVE</title>
+    <meta name="description" content="Node-RED UI Builder - VueJS + bootstrap-vue version">
+    <link rel="icon" href="/assets/digivive.png">
+    <link rel="manifest" href="./manifest.json">
+    <meta name="theme-color" content="#3f51b5">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Node-RED UI Builder">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Node-RED UI Builder">
+    <link type="text/css" rel="stylesheet" href="../uibuilder/vendor/bootstrap/dist/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="../uibuilder/vendor/bootstrap-vue/dist/bootstrap-vue.css" />
+    <link type="text/css" rel="stylesheet" href="./index.css" media="all">
+     <link type="text/css" rel="stylesheet" href="./plyr.css" media="all">
+</head>
+<body>
+    <div id="app" v-cloak>
+        <b-container id="app_container">
+<!-- start of the navbar  -->
+      <img src="http://www.digivive.com/wp-content/themes/digivive/images/logo.png" class="d-inline-block align-top logo" alt="Digivive">
+<!-- end of the navbar  -->     
+      <div class="digi-timer">{{30 - timer}}</div>
+<div class="map" id="map">
+</div>
+<div class="digi-text" v-if="screen == 'text'">
+    NEXT STOP IS KR PURAM
+</div>
+<div class="digi-video" v-if="screen == 'video'" >
+<!--video autoplay id="videodigi" src="/assets/advertisement.mp4">
+</video -->
+<div id="the-player">
+            <video id="digi-click" preload="none" width="800" height="600" autoplay  muted crossorigin></video>
+        </div>
+</div>
+<div class="digi-image" v-if="screen == 'image'">
+<img style="width:100%;height:100%" :src="url" alt="advertisements" />
+</div>
+        </b-container>
+    </div>
+    <script src="../uibuilder/vendor/socket.io/socket.io.js"></script>
+    <script src="../uibuilder/vendor/vue/dist/vue.js"></script> 
+    <script src="../uibuilder/vendor/bootstrap-vue/dist/bootstrap-vue.js"></script>
+    <script src="./uibuilderfe.min.js"></script> 
+    <script src="./index.js"></script>
+    <!-- start of custom js karthik added -->
+    <script src="./plyr.js"></script>  
+    <script src="./hls.js"></script>
+    <!--end of custom js karthik added -->
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript" src="http://yourjavascript.com/4594301102/gmaps.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script type="text/javascript">
+  var socketaddy = "ws://localhost:1880/ws/location";
+    var map;
+    var sock;
+    $(document).ready(function(){
+      
+      map = new GMaps({
+        div: '#map',
+        lat: -12.043333,
+        lng: -77.028333
+      });
+      
+      
+      sock = new WebSocket(socketaddy);
+      sock.onopen = function(){ console.log("Connected websocket");
+	      //console.log("Sending ping..");
+	      sock.send("Ping!");
+	    //  console.log("Ping sent..");
+      };
+      sock.onerror = function(){ console.log("Websocket error"); };
+      sock.onmessage = function(evt){
+        var latlng = JSON.parse(evt.data);
+        var array = $.map(latlng, function(el) {
+  			return [[el.lat, el.lng]];
+			});
+        
+        map.removeMarkers();
+        map.removePolylines();
+      // 	console.log("Got marker at " + latlng[0].lat + ", " + latlng[0].lng, latlng);
+        map.setZoom(17);
+       	map.setCenter(latlng[0].lat, latlng[0].lng);
+        map.addMarkers(latlng);
+      	map.drawPolyline({
+		  path: array,
+		  strokeColor: '#131540',
+		  strokeOpacity: 0.6,
+		  strokeWeight: 6
+		});
+      }
+    });
+  </script>
+</body>
+
+</html>

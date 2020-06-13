@@ -1,0 +1,4091 @@
+[
+    {
+        "id": "c56b27ce.faa2b8",
+        "type": "tab",
+        "label": "duclee-master",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "6f4f16a8.478b18",
+        "type": "tab",
+        "label": "mediabox-code",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "b4cf743a.f109c8",
+        "type": "tab",
+        "label": "voice-based-email-system",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "f00c058d.eb6558",
+        "type": "tab",
+        "label": "Flow 7",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "6d19c4c1.0bc8ec",
+        "type": "sqlitedb",
+        "z": "",
+        "db": "D:/sqldatabase/OES.db",
+        "mode": "RWC"
+    },
+    {
+        "id": "5d6b2ea1.eecc5",
+        "type": "mongodb",
+        "z": "",
+        "hostname": "localhost",
+        "port": "270177",
+        "db": "",
+        "name": ""
+    },
+    {
+        "id": "324dea14.e3a0f6",
+        "type": "mongodb",
+        "z": "",
+        "hostname": "mongodb://localhost",
+        "port": "27017",
+        "db": "myproject",
+        "name": ""
+    },
+    {
+        "id": "418455a6.ca888c",
+        "type": "mongodb",
+        "z": "",
+        "hostname": "127.0.0.1",
+        "port": "27017",
+        "db": "",
+        "name": ""
+    },
+    {
+        "id": "ca9a3791.a30c28",
+        "type": "mongodb",
+        "z": "",
+        "hostname": "localhost",
+        "port": "27017",
+        "db": "admin",
+        "name": ""
+    },
+    {
+        "id": "ba95eaf1.50bad8",
+        "type": "mongodb2",
+        "z": "",
+        "uri": "mongodb://localhost:27017/shreeni",
+        "name": "",
+        "options": "",
+        "parallelism": "-1"
+    },
+    {
+        "id": "f1c3b60.3320848",
+        "type": "ui_group",
+        "z": "",
+        "name": "Default",
+        "tab": "ad4003ef.8bdc4",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "35141877.0b1598",
+        "type": "ui_group",
+        "z": "",
+        "name": "rascal",
+        "tab": "",
+        "disp": true,
+        "width": "3",
+        "collapse": false
+    },
+    {
+        "id": "5a79817b.be1d6",
+        "type": "ui_group",
+        "z": "",
+        "name": "Sysinfo",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "393cd2d3.00ad4e",
+        "type": "ui_group",
+        "z": "",
+        "name": "Memory",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "c498474f.f5b248",
+        "type": "ui_group",
+        "z": "",
+        "name": "Arduino",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "c3362c7d.6257d",
+        "type": "ui_group",
+        "z": "",
+        "name": "TwitterPosts",
+        "tab": "",
+        "order": 4,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "83fdb0c2.c0e68",
+        "type": "ui_group",
+        "z": "",
+        "name": "Weather",
+        "tab": "",
+        "order": 5,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "18763f0e.f86671",
+        "type": "ui_group",
+        "z": "",
+        "name": "Sarahah-Notification",
+        "tab": "",
+        "order": 6,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "b8275a47.a10938",
+        "type": "ui_group",
+        "z": "",
+        "name": "Tweets",
+        "tab": "",
+        "order": 7,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "9167bdbd.fdeb",
+        "type": "ui_group",
+        "z": "",
+        "name": "Sysinfo",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "d315aa47.09dae8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Memory",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "d80daf35.2725d",
+        "type": "ui_group",
+        "z": "",
+        "name": "Arduino",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "5d8266ad.d74a58",
+        "type": "ui_group",
+        "z": "",
+        "name": "TwitterPosts",
+        "tab": "",
+        "order": 4,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "b580aa60.68c1a8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Weather",
+        "tab": "",
+        "order": 5,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "ba60d2a5.0a73b",
+        "type": "ui_group",
+        "z": "",
+        "name": "Sarahah-Notification",
+        "tab": "",
+        "order": 6,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "516628bd.bb4918",
+        "type": "ui_group",
+        "z": "",
+        "name": "Tweets",
+        "tab": "",
+        "order": 7,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "d9b588ad.280348",
+        "type": "ui_group",
+        "z": "",
+        "name": "Sysinfo",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "865572b4.731f2",
+        "type": "ui_group",
+        "z": "",
+        "name": "Memory",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "639c6e79.95daf",
+        "type": "ui_group",
+        "z": "",
+        "name": "Arduino",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "e63efd8.469fd",
+        "type": "ui_group",
+        "z": "",
+        "name": "TwitterPosts",
+        "tab": "",
+        "order": 4,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "6f642405.c7c27c",
+        "type": "ui_group",
+        "z": "",
+        "name": "Weather",
+        "tab": "",
+        "order": 5,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "97c87fee.0740c",
+        "type": "ui_group",
+        "z": "",
+        "name": "Sarahah-Notification",
+        "tab": "",
+        "order": 6,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "5a6e5946.2a8f58",
+        "type": "ui_group",
+        "z": "",
+        "name": "Tweets",
+        "tab": "",
+        "order": 7,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "458a9742.46fe58",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "e2268a88.2ceb38",
+        "type": "ui_group",
+        "z": "",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "34",
+        "collapse": false
+    },
+    {
+        "id": "48092e93.dd133",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "71a50e39.ed929",
+        "type": "ui_group",
+        "z": "",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "35",
+        "collapse": false
+    },
+    {
+        "id": "bd632515.73ec28",
+        "type": "ui_group",
+        "z": "",
+        "name": "Setup",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "d97587cd.6b8fd8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Link Provisioning Box",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "4fb06ae1.3c7a84",
+        "type": "ui_group",
+        "z": "",
+        "name": "status",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "c5663d39.09c01",
+        "type": "ui_group",
+        "z": "",
+        "name": "download status",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "575c7193.1654a",
+        "type": "ui_group",
+        "z": "",
+        "name": "NAVIGATION",
+        "tab": "",
+        "order": 2,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "1c5e5b4c.5eca95",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c5663d39.09c01",
+        "order": 1,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "79fbcd6e.c008b4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "575c7193.1654a",
+        "order": 2,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e7e03104.a34ba",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "575c7193.1654a",
+        "order": 4,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "27ccb574.863f9a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "575c7193.1654a",
+        "order": 5,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "57effb30.2e4e84",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "575c7193.1654a",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "56fd064e.65e318",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "575c7193.1654a",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "a773647b.c9a0d8",
+        "type": "aws-config-s3",
+        "z": ""
+    },
+    {
+        "id": "887cdcc6.f850f",
+        "type": "mongodb2",
+        "name": ""
+    },
+    {
+        "id": "a63f6532.0b03d8",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "43eb4ef4.83c46",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "5c2f6b99.3d05f4",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "3886f13f.0aaa6e",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "468f51f.57f5fb",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "7eecd31c.4b351c",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "7f386038.b2b1e",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "c466df23.6d72a",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "a03bc868.2782f8",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "ca473413.252848",
+        "type": "ui_tab",
+        "z": "",
+        "name": "home",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "41fd3b8d.0bffa4",
+        "type": "ui_group",
+        "z": "",
+        "name": "name",
+        "tab": "ca473413.252848",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a59fb2c9.966ed",
+        "type": "ui_group",
+        "z": "",
+        "name": "cpu usage",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "f2034444.2032d8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "a59fb2c9.966ed",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1ae66d5c.6ad553",
+        "type": "ui_group",
+        "z": "",
+        "name": "cpu temperature",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "b7f4471c.5441f8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Col1",
+        "tab": "5a477737.d5eaa8",
+        "order": 1,
+        "disp": false,
+        "width": "6"
+    },
+    {
+        "id": "b92506cd.8b7408",
+        "type": "ui_group",
+        "z": "",
+        "name": "Actions",
+        "tab": "5a477737.d5eaa8",
+        "order": 4,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "9419410.18639c",
+        "type": "ui_group",
+        "z": "",
+        "name": "Col2",
+        "tab": "5a477737.d5eaa8",
+        "order": 2,
+        "disp": false,
+        "width": "6"
+    },
+    {
+        "id": "c89e9af2.2c0168",
+        "type": "ui_group",
+        "z": "",
+        "name": "Col3",
+        "tab": "5a477737.d5eaa8",
+        "order": 3,
+        "disp": false,
+        "width": "6"
+    },
+    {
+        "id": "5a477737.d5eaa8",
+        "type": "ui_tab",
+        "z": "",
+        "name": "RPi Control",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "5423fbb1.6a87a4",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "e2123ac3.8c73d8",
+        "type": "socketio-config",
+        "z": "",
+        "port": "1881",
+        "sendClient": "true",
+        "path": "/socket.io",
+        "bindToNode": false
+    },
+    {
+        "id": "a492699a.8b54b8",
+        "type": "socketio-config",
+        "z": "",
+        "port": "1882",
+        "sendClient": "true",
+        "path": "/socket.io",
+        "bindToNode": true
+    },
+    {
+        "id": "6a41e24b.60971c",
+        "type": "socketio-config",
+        "z": "",
+        "port": "1881",
+        "sendClient": "true",
+        "path": "/socket.io",
+        "bindToNode": true
+    },
+    {
+        "id": "e996c3b3.e3785",
+        "type": "websocket-listener",
+        "z": "",
+        "path": "/ws/test",
+        "wholemsg": "false"
+    },
+    {
+        "id": "eb763b9f.47c798",
+        "type": "websocket-client",
+        "z": "",
+        "path": "ws://localhost:1880/ws/test",
+        "tls": "",
+        "wholemsg": "false"
+    },
+    {
+        "id": "1aca8c32.d95f84",
+        "type": "face-api-compute",
+        "z": "",
+        "name": "TBB Faces",
+        "childHost": true,
+        "recognitionType": "SSD",
+        "multipleFaces": "Multiple Faces",
+        "confidence": "50",
+        "inputSize": "416",
+        "landmarks": true,
+        "expressions": true,
+        "ageGender": true,
+        "recognition": false,
+        "labelName": "known",
+        "file": ""
+    },
+    {
+        "id": "6552fa86.7b4314",
+        "type": "ui_tab",
+        "z": "",
+        "name": "DIGIVIVE",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "47538a5a.c0f2c4",
+        "type": "ui_group",
+        "z": "",
+        "name": "Group 1",
+        "tab": "6552fa86.7b4314",
+        "order": 1,
+        "disp": false,
+        "width": 28,
+        "collapse": false
+    },
+    {
+        "id": "aa0b5259.5f806",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "47538a5a.c0f2c4",
+        "order": 1,
+        "width": 28,
+        "height": 1
+    },
+    {
+        "id": "9263faa5.fdb048",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "47538a5a.c0f2c4",
+        "order": 2,
+        "width": 28,
+        "height": 1
+    },
+    {
+        "id": "939dff58.56f97",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "47538a5a.c0f2c4",
+        "order": 3,
+        "width": 28,
+        "height": 1
+    },
+    {
+        "id": "4998071c.4716c8",
+        "type": "ui_tab",
+        "z": "",
+        "name": "DIGIVIVE VIDEO",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "58300d1d.336ac4",
+        "type": "ui_group",
+        "z": "",
+        "name": "Group 1",
+        "tab": "4998071c.4716c8",
+        "order": 1,
+        "disp": false,
+        "width": 14,
+        "collapse": false
+    },
+    {
+        "id": "10861adc.939b65",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "58300d1d.336ac4",
+        "order": 1,
+        "width": 14,
+        "height": 1
+    },
+    {
+        "id": "59c18efa.7d123",
+        "type": "websocket-listener",
+        "path": "/ws/location",
+        "wholemsg": "false"
+    },
+    {
+        "id": "f56bd81b.b558d8",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "Mosquitto",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "afb77896.a6ab78",
+        "type": "ui_group",
+        "z": "",
+        "name": "Slideshow",
+        "tab": "ad4003ef.8bdc4",
+        "disp": false,
+        "width": "28",
+        "collapse": false
+    },
+    {
+        "id": "ad4003ef.8bdc4",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Slide",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ee7000c1.e9ef9",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "Mosquitto",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "a06c2ae5.e62298",
+        "type": "ui_group",
+        "z": "",
+        "name": "Slideshow",
+        "tab": "7d9d6067.853d6",
+        "disp": false,
+        "width": "28",
+        "collapse": false
+    },
+    {
+        "id": "7d9d6067.853d6",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Slide",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "24f14c88.6249e4",
+        "type": "ui_group",
+        "z": "",
+        "name": "map",
+        "tab": "7d9d6067.853d6",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "625535d6.8db4fc",
+        "type": "ui_group",
+        "name": "Group 3",
+        "tab": "7d9d6067.853d6",
+        "order": 3,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "773ed414.f8af4c",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "ca473413.252848",
+        "order": 2,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "d2815990.02e468",
+        "type": "ui_tab",
+        "name": "Tab 7",
+        "icon": "dashboard",
+        "order": 7
+    },
+    {
+        "id": "635f2d8e.5e86c4",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "d2815990.02e468",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "75b3fed7.f2a63",
+        "type": "ui_group",
+        "z": "",
+        "name": "Default",
+        "tab": "40b4bbad.e12d54",
+        "order": 1,
+        "disp": false,
+        "width": "24",
+        "collapse": false
+    },
+    {
+        "id": "40b4bbad.e12d54",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Home",
+        "icon": "dashboard"
+    },
+    {
+        "id": "dfffae51.ec5ca",
+        "type": "inject",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 260,
+        "y": 300,
+        "wires": [
+            [
+                "554de03.d404a2"
+            ]
+        ]
+    },
+    {
+        "id": "6887d28c.52a05c",
+        "type": "function",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "func": "\nconst PDF2Pic = global.get(\"karthik\")\nconst pdf2pic = new PDF2Pic({\n  density: 100,           // output pixels per inch\n  savename: msg.rawfilename,   // output file name\n  savedir: msg.rawfilepath + \"/\" + msg.req.headers.user_id,    // output file location\n  format: \"png\",          // output file format\n  size: \"600x600\"         // output size in pixels\n});\n\npdf2pic.convertBulk(msg.rawfilepath  + \"/\" + msg.req.headers.user_id+\"/\"+ msg.rawfilename +\".pdf\", -1).then((resolve) => {\n  msg.payload =  resolve;\n  msg.msg = \"successfully converted\"\n   node.send(msg);\n});\n /*\npdf2pic.convertToBase64(\"D:/OFFICE/duclee/server/authentication/tmp/2papers.pdf\").then((resolve) => {\n  if (resolve.base64) {\n    console.log(\"image converter successfully!\");\n     msg.payload =  resolve.base64;\n  msg.msg = \"successfullu converterd\"\n   node.send(msg);\n    \n  }\n});\n*/\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 590,
+        "y": 300,
+        "wires": [
+            [
+                "1ac0de29.ea5332",
+                "ae586179.c4eee"
+            ]
+        ]
+    },
+    {
+        "id": "d9dc53f7.d7a2f",
+        "type": "amazon s3 put",
+        "z": "c56b27ce.faa2b8",
+        "aws": "a773647b.c9a0d8",
+        "bucket": "duclee",
+        "filename": "",
+        "localFilename": "",
+        "contentType": "",
+        "contentEncoding": "7",
+        "region": "ap-southeast-1",
+        "isBase64": true,
+        "name": "",
+        "acl": "bucket-owner-full-control",
+        "outputs": 1,
+        "x": 580,
+        "y": 480,
+        "wires": [
+            [
+                "dc769b0a.c9e648"
+            ]
+        ]
+    },
+    {
+        "id": "25ee65d8.7dccea",
+        "type": "comment",
+        "z": "c56b27ce.faa2b8",
+        "name": "msg.filename = \"professors/ 343 / 23423 / test.pdf\"",
+        "info": "",
+        "x": 710,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "646a526a.72bf7c",
+        "type": "comment",
+        "z": "c56b27ce.faa2b8",
+        "name": "msg.contentType = \"application / pdf\"",
+        "info": "",
+        "x": 660,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "66b78001.3f01d",
+        "type": "comment",
+        "z": "c56b27ce.faa2b8",
+        "name": "msg.localFilename = [ base64 buffer ]",
+        "info": "",
+        "x": 670,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "4c78a98f.59ef78",
+        "type": "comment",
+        "z": "c56b27ce.faa2b8",
+        "name": "msg.filename = \"newFileName\"",
+        "info": "",
+        "x": 670,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "ef00a44.08df358",
+        "type": "comment",
+        "z": "c56b27ce.faa2b8",
+        "name": "msg.fileLocation = \"/tmp\"",
+        "info": "",
+        "x": 650,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "554de03.d404a2",
+        "type": "function",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "func": "msg.rawfilename = \"18papers\"\nmsg.rawfilepath = \"D:/OFFICE/duclee/server/authentication/tmp\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 430,
+        "y": 300,
+        "wires": [
+            [
+                "6887d28c.52a05c"
+            ]
+        ]
+    },
+    {
+        "id": "1ac0de29.ea5332",
+        "type": "debug",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 810,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "416129f3.763988",
+        "type": "comment",
+        "z": "c56b27ce.faa2b8",
+        "name": "pdf to image node",
+        "info": "",
+        "x": 630,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "33cddc3d.4ddce4",
+        "type": "http in",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "url": "/select-files",
+        "method": "post",
+        "upload": true,
+        "swaggerDoc": "",
+        "x": 260,
+        "y": 60,
+        "wires": [
+            [
+                "ce5dc30.b36044",
+                "8e5db6e6.414f08"
+            ]
+        ]
+    },
+    {
+        "id": "ce5dc30.b36044",
+        "type": "function",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "func": "msg.payload = msg.req.files;\nflow.set(\"userId\",msg.req.headers.user_id)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 450,
+        "y": 60,
+        "wires": [
+            [
+                "203a5c44.e97164"
+            ]
+        ]
+    },
+    {
+        "id": "203a5c44.e97164",
+        "type": "split",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 590,
+        "y": 60,
+        "wires": [
+            [
+                "9dba32bf.5d389"
+            ]
+        ]
+    },
+    {
+        "id": "d2c6f7fc.bc1648",
+        "type": "file",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "filename": "",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 890,
+        "y": 60,
+        "wires": [
+            [
+                "124dcea1.3e1421",
+                "65f7b0c0.34b4e",
+                "6887d28c.52a05c"
+            ]
+        ]
+    },
+    {
+        "id": "95ed9c72.35df5",
+        "type": "comment",
+        "z": "c56b27ce.faa2b8",
+        "name": "originalName:\"1papers.pdf\"",
+        "info": "",
+        "x": 660,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "11f8ec78.03e444",
+        "type": "comment",
+        "z": "c56b27ce.faa2b8",
+        "name": "mimetype:\"application/pdf\"",
+        "info": "",
+        "x": 650,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "a85b097.b6773f8",
+        "type": "comment",
+        "z": "c56b27ce.faa2b8",
+        "name": "size:34567",
+        "info": "",
+        "x": 600,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "420c419c.0d5d2",
+        "type": "comment",
+        "z": "c56b27ce.faa2b8",
+        "name": "buffer:[ base64 buffer ]",
+        "info": "",
+        "x": 640,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "9dba32bf.5d389",
+        "type": "function",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "func": "msg.filename = \"D:/OFFICE/duclee/server/authentication/tmp/\" + msg.req.headers.user_id  + \"/\"+msg.payload.originalname ;\nmsg.rawfilenameExt = msg.payload.originalname;\nvar sp = msg.rawfilenameExt.indexOf(\".\")\nvar ep = msg.rawfilenameExt.length;\nmsg.rawfilename = msg.rawfilenameExt.slice(0,sp)\nmsg.rawfiletype = msg.rawfilenameExt.slice(sp+1,ep)\nmsg.rawfilepath = \"D:/OFFICE/duclee/server/authentication/tmp/\";\nmsg.rawfilepathUserId = \"D:/OFFICE/duclee/server/authentication/tmp/\"+ msg.req.headers.user_id;\nmsg.payload = msg.payload.buffer;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 750,
+        "y": 60,
+        "wires": [
+            [
+                "d2c6f7fc.bc1648"
+            ]
+        ]
+    },
+    {
+        "id": "124dcea1.3e1421",
+        "type": "http response",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "statusCode": "200",
+        "headers": {},
+        "x": 1040,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "65f7b0c0.34b4e",
+        "type": "debug",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 1030,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "ae586179.c4eee",
+        "type": "fs-ops-dir",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "path": "rawfilepathUserId",
+        "pathType": "msg",
+        "filter": "*",
+        "filterType": "str",
+        "dir": "payload",
+        "dirType": "msg",
+        "x": 220,
+        "y": 480,
+        "wires": [
+            [
+                "2ec870b8.c8332"
+            ]
+        ]
+    },
+    {
+        "id": "9f43e452.536f48",
+        "type": "debug",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 350,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "2ec870b8.c8332",
+        "type": "split",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 350,
+        "y": 480,
+        "wires": [
+            [
+                "e9684c80.f5f61"
+            ]
+        ]
+    },
+    {
+        "id": "1c940824.d39c98",
+        "type": "file in",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "filename": "",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 350,
+        "y": 560,
+        "wires": [
+            [
+                "77fb64be.1970ac"
+            ]
+        ]
+    },
+    {
+        "id": "e9684c80.f5f61",
+        "type": "function",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "func": "msg.filename =msg.rawfilepath +msg.req.headers.user_id+ \"/\"+msg.payload;\nmsg.finalfilename = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 350,
+        "y": 520,
+        "wires": [
+            [
+                "1c940824.d39c98"
+            ]
+        ]
+    },
+    {
+        "id": "77fb64be.1970ac",
+        "type": "function",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "func": "msg.filename = \"professors/\"+msg.req.headers.user_id+\"/\"+msg.rawfilename+\"/\"+msg.finalfilename;\nmsg.contentType= \"image/png\"\nmsg.localFilename = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 350,
+        "y": 600,
+        "wires": [
+            [
+                "9f43e452.536f48",
+                "d9dc53f7.d7a2f"
+            ]
+        ]
+    },
+    {
+        "id": "52447274.37cb3c",
+        "type": "debug",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 850,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "dc769b0a.c9e648",
+        "type": "fs-ops-delete",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "path": "rawfilepathUserId",
+        "pathType": "msg",
+        "filename": "finalfilename",
+        "filenameType": "msg",
+        "x": 590,
+        "y": 660,
+        "wires": [
+            [
+                "90a7dd15.d3ebe"
+            ]
+        ]
+    },
+    {
+        "id": "dd52d69d.5b49c8",
+        "type": "comment",
+        "z": "c56b27ce.faa2b8",
+        "name": "delete in the server once uploaded to the s3",
+        "info": "",
+        "x": 830,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "908c95b3.ba8038",
+        "type": "mongodb2 in",
+        "z": "c56b27ce.faa2b8",
+        "service": "_ext_",
+        "configNode": "ba95eaf1.50bad8",
+        "name": "",
+        "collection": "assets",
+        "operation": "insertOne",
+        "x": 550,
+        "y": 920,
+        "wires": [
+            [
+                "52447274.37cb3c"
+            ]
+        ]
+    },
+    {
+        "id": "90a7dd15.d3ebe",
+        "type": "join",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "mode": "auto",
+        "build": "string",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": "false",
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "x": 470,
+        "y": 860,
+        "wires": [
+            [
+                "3a87ff25.fc155"
+            ]
+        ]
+    },
+    {
+        "id": "3a87ff25.fc155",
+        "type": "function",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "func": "var files = [];\nvar preBucket = \"https://duclee.s3.ap-south-1.amazonaws.com/professors\"\nvar userid = msg.req.headers.user_id;\nvar rawfilename = msg.rawfilename;\nvar subject = msg.req.headers.sub_name;\nvar description = msg.req.headers.description;\nvar module_no = msg.req.headers.module_no;\nvar percentage = msg.req.headers.percent_covered;\nvar publics = msg.req.headers.pub_priv;\nvar owner = msg.req.headers.owner;\nvar assetSchema = {\n    name :\"\",\n    user_id:\"\",\n    files:[],\n    public:null,\n    subject:\"\",\n    description:\"\",\n    module_no:\"\",\n    percentage:\"\",\n    owner:\"\"\n}\n\nfor(var a=0;a< msg.payload.length; a++){\n   var fileSchema = {\n    name:\"\",\n    path:\"\"\n    };   \n    if(a === 0){\n     fileSchema.name = rawfilename +\".pdf\";\n     fileSchema.path = preBucket+\"/\" +userid+\"/\"+ rawfilename +\"/\"+ fileSchema.name;\n     assetSchema.files.push(fileSchema);\n    }\n    else{\n     fileSchema.name = rawfilename +\"_\"+a+\".png\";\n     fileSchema.path = preBucket+\"/\" +userid+\"/\"+ rawfilename +\"/\"+ fileSchema.name;\n     assetSchema.files.push(fileSchema);\n    }\n}\nassetSchema.name = rawfilename;\nassetSchema.user_id = userid;\nassetSchema.subject = subject;\nassetSchema.description = description;\nassetSchema.module_no = module_no;\nassetSchema.percentage = percentage;\nassetSchema.public = publics;\nassetSchema.owner = owner;\nmsg.payload = assetSchema;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 590,
+        "y": 860,
+        "wires": [
+            [
+                "908c95b3.ba8038"
+            ]
+        ]
+    },
+    {
+        "id": "40c1ae76.e9ed4",
+        "type": "http in",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "url": "/assets",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 1180,
+        "wires": [
+            [
+                "ab4b0fa6.1aead"
+            ]
+        ]
+    },
+    {
+        "id": "ac7eba44.dab338",
+        "type": "mongodb2 in",
+        "z": "c56b27ce.faa2b8",
+        "service": "_ext_",
+        "configNode": "ba95eaf1.50bad8",
+        "name": "",
+        "collection": "assets",
+        "operation": "find.toArray",
+        "x": 660,
+        "y": 1180,
+        "wires": [
+            [
+                "6af1bd62.d508e4",
+                "bad1d4b5.466a68"
+            ]
+        ]
+    },
+    {
+        "id": "6af1bd62.d508e4",
+        "type": "debug",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 950,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "bad1d4b5.466a68",
+        "type": "http response",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 970,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "8e5db6e6.414f08",
+        "type": "debug",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 460,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "a44a54ef.4a62a8",
+        "type": "http in",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "url": "/order",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 250,
+        "y": 1340,
+        "wires": [
+            [
+                "3a1c7fc0.a5977"
+            ]
+        ]
+    },
+    {
+        "id": "625ca626.b35fc8",
+        "type": "debug",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 910,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "3a1c7fc0.a5977",
+        "type": "mongodb2 in",
+        "z": "c56b27ce.faa2b8",
+        "service": "_ext_",
+        "configNode": "ba95eaf1.50bad8",
+        "name": "",
+        "collection": "orders",
+        "operation": "insertOne",
+        "x": 570,
+        "y": 1340,
+        "wires": [
+            [
+                "625ca626.b35fc8",
+                "48fb2b6e.1b7424"
+            ]
+        ]
+    },
+    {
+        "id": "48fb2b6e.1b7424",
+        "type": "http response",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "statusCode": "200",
+        "headers": {},
+        "x": 920,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "95481bec.c3dd38",
+        "type": "http in",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "url": "/ordersbyid",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 120,
+        "y": 1460,
+        "wires": [
+            [
+                "60505ca7.57f084"
+            ]
+        ]
+    },
+    {
+        "id": "ad42f36a.cb743",
+        "type": "mongodb2 in",
+        "z": "c56b27ce.faa2b8",
+        "service": "_ext_",
+        "configNode": "ba95eaf1.50bad8",
+        "name": "",
+        "collection": "orders",
+        "operation": "find.toArray",
+        "x": 620,
+        "y": 1460,
+        "wires": [
+            [
+                "2e87846e.b918bc",
+                "fa308e1e.6878c"
+            ]
+        ]
+    },
+    {
+        "id": "2e87846e.b918bc",
+        "type": "debug",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 950,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "53eee622.f3f928",
+        "type": "inject",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "topic": "",
+        "payload": "{\"public\":\"private\"}",
+        "payloadType": "json",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 270,
+        "y": 1500,
+        "wires": [
+            [
+                "ad42f36a.cb743"
+            ]
+        ]
+    },
+    {
+        "id": "fa308e1e.6878c",
+        "type": "http response",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "statusCode": "200",
+        "headers": {},
+        "x": 920,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "60505ca7.57f084",
+        "type": "function",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "func": "msg.payload = {\"orderId\":msg.req.headers.user_id};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 290,
+        "y": 1460,
+        "wires": [
+            [
+                "ad42f36a.cb743"
+            ]
+        ]
+    },
+    {
+        "id": "84c80053.25fa6",
+        "type": "http in",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "url": "/notesbycollege",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 1680,
+        "wires": [
+            [
+                "ef75f951.911e18"
+            ]
+        ]
+    },
+    {
+        "id": "ef75f951.911e18",
+        "type": "function",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "func": "msg.payload = {\"college_name\":msg.req.headers.college_name,\n\"public\":\"private\"};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 1680,
+        "wires": [
+            [
+                "9b4423d6.5cec3"
+            ]
+        ]
+    },
+    {
+        "id": "9b4423d6.5cec3",
+        "type": "mongodb2 in",
+        "z": "c56b27ce.faa2b8",
+        "service": "_ext_",
+        "configNode": "ba95eaf1.50bad8",
+        "name": "",
+        "collection": "assets",
+        "operation": "find.toArray",
+        "x": 640,
+        "y": 1680,
+        "wires": [
+            [
+                "7711c4f8.36e6dc",
+                "c0c1b8a7.53e648"
+            ]
+        ]
+    },
+    {
+        "id": "7711c4f8.36e6dc",
+        "type": "debug",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 950,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "c0c1b8a7.53e648",
+        "type": "http response",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "statusCode": "200",
+        "headers": {},
+        "x": 960,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "c3ae5ae9.394c68",
+        "type": "http in",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "url": "/notesbypublic",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 1820,
+        "wires": [
+            [
+                "e6c0f3cb.775f1"
+            ]
+        ]
+    },
+    {
+        "id": "e6c0f3cb.775f1",
+        "type": "function",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "func": "msg.payload ={\"public\":\"public\"}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 1820,
+        "wires": [
+            [
+                "d77fe3e4.4b30b"
+            ]
+        ]
+    },
+    {
+        "id": "d77fe3e4.4b30b",
+        "type": "mongodb2 in",
+        "z": "c56b27ce.faa2b8",
+        "service": "_ext_",
+        "configNode": "ba95eaf1.50bad8",
+        "name": "",
+        "collection": "assets",
+        "operation": "find.toArray",
+        "x": 600,
+        "y": 1800,
+        "wires": [
+            [
+                "ecef0dba.b31be",
+                "15ba245d.3ff5bc"
+            ]
+        ]
+    },
+    {
+        "id": "ecef0dba.b31be",
+        "type": "debug",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 910,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "15ba245d.3ff5bc",
+        "type": "http response",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "statusCode": "200",
+        "headers": {},
+        "x": 900,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "624fdabd.6323e4",
+        "type": "inject",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 180,
+        "y": 1780,
+        "wires": [
+            [
+                "e6c0f3cb.775f1"
+            ]
+        ]
+    },
+    {
+        "id": "ab4b0fa6.1aead",
+        "type": "function",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "func": "msg.payload = {\"user_id\":msg.req.headers.user_id};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 330,
+        "y": 1180,
+        "wires": [
+            [
+                "ac7eba44.dab338"
+            ]
+        ]
+    },
+    {
+        "id": "535f365b.760698",
+        "type": "http in",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "url": "/uploadednotes",
+        "method": "delete",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 120,
+        "y": 1960,
+        "wires": [
+            [
+                "46ade6ca.61f258",
+                "29d8a819.982eb8"
+            ]
+        ]
+    },
+    {
+        "id": "13d45b61.530345",
+        "type": "http response",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "statusCode": "200",
+        "headers": {},
+        "x": 840,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "f3098d1b.24593",
+        "type": "debug",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 830,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "17a235d3.d1412a",
+        "type": "mongodb2 in",
+        "z": "c56b27ce.faa2b8",
+        "service": "_ext_",
+        "configNode": "ba95eaf1.50bad8",
+        "name": "",
+        "collection": "assets",
+        "operation": "remove",
+        "x": 550,
+        "y": 2020,
+        "wires": [
+            [
+                "f3098d1b.24593",
+                "13d45b61.530345"
+            ]
+        ]
+    },
+    {
+        "id": "46ade6ca.61f258",
+        "type": "debug",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 430,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "29d8a819.982eb8",
+        "type": "function",
+        "z": "c56b27ce.faa2b8",
+        "name": "",
+        "func": "msg.payload ={\"name\":msg.req.body.event.name}; \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 270,
+        "y": 2020,
+        "wires": [
+            [
+                "17a235d3.d1412a"
+            ]
+        ]
+    },
+    {
+        "id": "d8c80214.2896b",
+        "type": "comment",
+        "z": "c56b27ce.faa2b8",
+        "name": "mongodb://karthik:karthik@cluster0-shard-00-00-1ofod.mongodb.net:27017,cluster0-shard-00-01-1ofod.mongodb.net:27017,cluster0-shard-00-02-1ofod.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority",
+        "info": "",
+        "x": 800,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "2f3c9bc5.cbe654",
+        "type": "http in",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "url": "/initxml",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 110,
+        "y": 160,
+        "wires": [
+            [
+                "ef9e8516.2f7a78",
+                "b4a0bfdf.fde42"
+            ]
+        ]
+    },
+    {
+        "id": "4d27961b.5b4ef8",
+        "type": "exec",
+        "z": "6f4f16a8.478b18",
+        "command": "sudo rm -r /var/www/html/media/master",
+        "addpay": true,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "",
+        "x": 800,
+        "y": 280,
+        "wires": [
+            [
+                "6a535411.267e4c"
+            ],
+            [
+                "6a535411.267e4c"
+            ],
+            [
+                "6a535411.267e4c"
+            ]
+        ]
+    },
+    {
+        "id": "6a535411.267e4c",
+        "type": "debug",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1090,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "267f4202.f0a80e",
+        "type": "debug",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1070,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "76eaa076.16365",
+        "type": "inject",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 301.99999618530273,
+        "y": 268.99999809265137,
+        "wires": [
+            [
+                "4d27961b.5b4ef8",
+                "4da47fe5.ed034"
+            ]
+        ]
+    },
+    {
+        "id": "b73755cf.8e0878",
+        "type": "exec",
+        "z": "6f4f16a8.478b18",
+        "command": "sudo rsync -avx ",
+        "addpay": true,
+        "append": "/var/www/html/media/master",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "",
+        "x": 780,
+        "y": 380,
+        "wires": [
+            [
+                "267f4202.f0a80e"
+            ],
+            [
+                "267f4202.f0a80e"
+            ],
+            [
+                "267f4202.f0a80e"
+            ]
+        ]
+    },
+    {
+        "id": "d3a66e25.24504",
+        "type": "inject",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 740,
+        "y": 220,
+        "wires": [
+            [
+                "4d27961b.5b4ef8"
+            ]
+        ]
+    },
+    {
+        "id": "ef9e8516.2f7a78",
+        "type": "debug",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 270,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "a7275736.981ce8",
+        "type": "function",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "func": "flow.set(\"package_id\",msg.payload.package_id);\nflow.set(\"mediabox_id\",msg.payload.mediabox_id);\nflow.set(\"version_no\",msg.payload.version_no);\nflow.set(\"xml_parent\",msg.payload.xml_parent);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 570,
+        "y": 160,
+        "wires": [
+            [
+                "4d27961b.5b4ef8",
+                "a6861e23.957ab",
+                "c991b6c5.a416f8"
+            ]
+        ]
+    },
+    {
+        "id": "e2422756.155fd8",
+        "type": "http response",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "statusCode": "400",
+        "headers": {},
+        "x": 540,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "eb361f5c.bb654",
+        "type": "debug",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 1270,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "d2f901b7.47817",
+        "type": "http request",
+        "z": "6f4f16a8.478b18",
+        "name": "authenticate",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": false,
+        "url": "http://52.66.153.105:8081/oescms/api/v1/authenticate",
+        "tls": "",
+        "proxy": "",
+        "authType": "",
+        "x": 430,
+        "y": 494,
+        "wires": [
+            [
+                "33913914.dae066"
+            ]
+        ]
+    },
+    {
+        "id": "6b6f5ca5.d54dd4",
+        "type": "function",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "func": "msg.payload={\"username\":\"superadmin\",\"password\":\"admin\"}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 290,
+        "y": 494,
+        "wires": [
+            [
+                "d2f901b7.47817"
+            ]
+        ]
+    },
+    {
+        "id": "33913914.dae066",
+        "type": "function",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "func": "var idToken = msg.payload.id_token\nflow.set('bearer-token',msg.payload);\nmsg = {}\nmsg.payload = {}\nmsg.headers = {};\nmsg.headers['Authorization'] = \"Bearer \" + idToken;\nmsg.payload =  flow.get('package_id');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 590,
+        "y": 494,
+        "wires": [
+            [
+                "75f43a35.7725b4"
+            ]
+        ]
+    },
+    {
+        "id": "5c13b80a.7fcfd8",
+        "type": "http request",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": false,
+        "url": "http://52.66.153.105:8081/oescms/api/v1/asset-package/media-box/{{id}}/XML",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 910,
+        "y": 494,
+        "wires": [
+            [
+                "77289249.87eb5c"
+            ]
+        ]
+    },
+    {
+        "id": "75f43a35.7725b4",
+        "type": "change",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "id",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 494,
+        "wires": [
+            [
+                "5c13b80a.7fcfd8",
+                "963d841.ff39478"
+            ]
+        ]
+    },
+    {
+        "id": "963d841.ff39478",
+        "type": "debug",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 730,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "5a34ea4d.ec37f4",
+        "type": "inject",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 140,
+        "y": 500,
+        "wires": [
+            [
+                "6b6f5ca5.d54dd4"
+            ]
+        ]
+    },
+    {
+        "id": "77289249.87eb5c",
+        "type": "function",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "func": "var xml = msg.payload;\nvar numOf = xml.match(/(?:https?|ftp):\\/\\/[\\n\\S]+/g);\nvar numOf = xml.match(/(?:(?:https?|ftp|file):\\/\\/|www\\.|ftp\\.)(?:\\([-A-Z0-9+&@#\\/%=~_|$?!:,.]*\\)|[-A-Z0-9+&@#\\/%=~_|$?!:,.])*(?:\\([-A-Z0-9+&@#\\/%=~_|$?!:,.]*\\)|[A-Z0-9+&@#\\/%=~_|$])/igm);\nmsg.number = numOf;\n\nfor(var a=0;a<msg.number.length;a++){\n    msg.number[a] = msg.number[a].substring(msg.number[a].lastIndexOf('/')+1);\n}\nfor(var a=0;a<msg.number.length;a++){\n    xml = xml.replace(/(?:(?:https?|ftp|file):\\/\\/|www\\.|ftp\\.)(?:\\([-A-Z0-9+&@#\\/%=~_|$?!:,.]*\\)|[-A-Z0-9+&@#\\/%=~_|$?!:,.])*(?:\\([-A-Z0-9+&@#\\/%=~_|$?!:,.]*\\)|[A-Z0-9+&@#\\/%=~_|$])/im,\"http//192.168.0.2/master/\"+msg.number[a])\n}\nxml = xml.replace(/http/g,\"http:\")\nmsg.payload = xml\n//var replace = xml.replace(/(?:https?|ftp):\\/\\/[\\n\\S]+/g, '###');\n//msg.payload =b;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1050,
+        "y": 494,
+        "wires": [
+            [
+                "4e61a6c7.ad2ef8"
+            ]
+        ]
+    },
+    {
+        "id": "4e61a6c7.ad2ef8",
+        "type": "file",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "filename": "/home/pi/MB/XML.xml",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1240,
+        "y": 500,
+        "wires": [
+            [
+                "eb361f5c.bb654",
+                "de8c6659.cf48b8"
+            ]
+        ]
+    },
+    {
+        "id": "bc3b530b.28bb1",
+        "type": "http request",
+        "z": "6f4f16a8.478b18",
+        "name": "authenticate",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": false,
+        "url": "http://52.66.153.105:8081/oescms/api/v1/authenticate",
+        "tls": "",
+        "proxy": "",
+        "authType": "",
+        "x": 390,
+        "y": 760,
+        "wires": [
+            [
+                "2796568b.1b0f0a"
+            ]
+        ]
+    },
+    {
+        "id": "de8c6659.cf48b8",
+        "type": "function",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "func": "msg.payload={\"username\":\"superadmin\",\"password\":\"admin\"}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 250,
+        "y": 760,
+        "wires": [
+            [
+                "bc3b530b.28bb1"
+            ]
+        ]
+    },
+    {
+        "id": "2796568b.1b0f0a",
+        "type": "function",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "func": "var idToken = msg.payload.id_token\nflow.set('bearer-token',msg.payload);\nmsg = {}\nmsg.payload = {}\nmsg.headers = {};\nmsg.headers['Authorization'] = \"Bearer \" + idToken;\nmsg.payload =  flow.get('package_id');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 550,
+        "y": 760,
+        "wires": [
+            [
+                "83499dd4.895f6"
+            ]
+        ]
+    },
+    {
+        "id": "4ed9ab70.38f4c4",
+        "type": "http request",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": false,
+        "url": "http://52.66.153.105:8081/oescms/api/v1/package-provision-box-media-boxes/status",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 1068,
+        "y": 764,
+        "wires": [
+            [
+                "747d7c59.d75cb4"
+            ]
+        ]
+    },
+    {
+        "id": "83499dd4.895f6",
+        "type": "change",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "id",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 728,
+        "y": 764,
+        "wires": [
+            [
+                "89d50489.00d4a8",
+                "460cf75a.cae038"
+            ]
+        ]
+    },
+    {
+        "id": "89d50489.00d4a8",
+        "type": "debug",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 688,
+        "y": 824,
+        "wires": []
+    },
+    {
+        "id": "62d1f0d1.3807d",
+        "type": "inject",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 120,
+        "y": 760,
+        "wires": [
+            [
+                "de8c6659.cf48b8"
+            ]
+        ]
+    },
+    {
+        "id": "460cf75a.cae038",
+        "type": "function",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "func": "var package_id = flow.get(\"package_id\")\nvar mediabox_id = flow.get(\"mediabox_id\")\nvar version = flow.get(\"version_no\")\nmsg.payload = {\n        \"packageId\": package_id,\n        \"mediaBoxId\": mediabox_id,\n        \"packageSyncStatus\": \"SYNCED_SUCCESS\",\n        \"version\":version\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 908,
+        "y": 764,
+        "wires": [
+            [
+                "4ed9ab70.38f4c4"
+            ]
+        ]
+    },
+    {
+        "id": "27aa6c07.c74974",
+        "type": "comment",
+        "z": "6f4f16a8.478b18",
+        "name": "status update of media box [ a put call here ]",
+        "info": "",
+        "x": 368,
+        "y": 804,
+        "wires": []
+    },
+    {
+        "id": "1f0c88fe.353a67",
+        "type": "comment",
+        "z": "6f4f16a8.478b18",
+        "name": "receive xml and replace the url",
+        "info": "",
+        "x": 350,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "447558fa.62cb48",
+        "type": "comment",
+        "z": "6f4f16a8.478b18",
+        "name": "copies the folder contents in OES and puts inside media folder",
+        "info": "",
+        "x": 440,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "b4a0bfdf.fde42",
+        "type": "function",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "func": "if(msg.payload.package_id && msg.payload.mediabox_id && msg.payload.version_no && msg.payload.xml_parent){\n    msg.correctRequest = 1;\n}\nelse{\n    msg.correctRequest = 0;\n    msg.payload = \"Some parameter is missing, make sure you send package_id, mediabox_id, version_no and xml_parent in a single object in a json format\"\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 270,
+        "y": 160,
+        "wires": [
+            [
+                "939cb2c6.febe9"
+            ]
+        ]
+    },
+    {
+        "id": "939cb2c6.febe9",
+        "type": "switch",
+        "z": "6f4f16a8.478b18",
+        "name": "check ",
+        "property": "correctRequest",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 410,
+        "y": 160,
+        "wires": [
+            [
+                "a7275736.981ce8"
+            ],
+            [
+                "e2422756.155fd8"
+            ]
+        ]
+    },
+    {
+        "id": "cb440fd9.24dee",
+        "type": "comment",
+        "z": "6f4f16a8.478b18",
+        "name": "checks the request parameters",
+        "info": "",
+        "x": 350,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "747d7c59.d75cb4",
+        "type": "debug",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1248,
+        "y": 764,
+        "wires": []
+    },
+    {
+        "id": "4da47fe5.ed034",
+        "type": "fs-ops-dir",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "path": "/home/pi/MB/OES",
+        "pathType": "str",
+        "filter": "*",
+        "filterType": "str",
+        "dir": "files",
+        "dirType": "msg",
+        "x": 280,
+        "y": 320,
+        "wires": [
+            [
+                "9ba6b97a.343048",
+                "6ae94906.bc4998"
+            ]
+        ]
+    },
+    {
+        "id": "6ae53ea7.0d5e8",
+        "type": "split",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 610,
+        "y": 320,
+        "wires": [
+            [
+                "ec04743a.a31248"
+            ]
+        ]
+    },
+    {
+        "id": "9ba6b97a.343048",
+        "type": "function",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "func": "\nfor(var a=0;a<msg.files.length;a++){\n    msg.files[a] = \"/home/pi/MB/OES\"+\"/\"+msg.files[a]\n}\nmsg.payload = msg.files;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 450,
+        "y": 320,
+        "wires": [
+            [
+                "6ae53ea7.0d5e8"
+            ]
+        ]
+    },
+    {
+        "id": "ec04743a.a31248",
+        "type": "fs-ops-dir",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "path": "payload",
+        "pathType": "msg",
+        "filter": "*",
+        "filterType": "str",
+        "dir": "files",
+        "dirType": "msg",
+        "x": 280,
+        "y": 380,
+        "wires": [
+            [
+                "369fb283.43e89e"
+            ]
+        ]
+    },
+    {
+        "id": "369fb283.43e89e",
+        "type": "function",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "func": "\nfor(var a=0;a<msg.files.length;a++){\n    msg.files[a] = msg.payload +\"/\"+ msg.files[a] + \"/\";\n}\nmsg.payload = msg.files;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 450,
+        "y": 380,
+        "wires": [
+            [
+                "bab96cc0.8ad5"
+            ]
+        ]
+    },
+    {
+        "id": "bab96cc0.8ad5",
+        "type": "split",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 610,
+        "y": 380,
+        "wires": [
+            [
+                "b73755cf.8e0878"
+            ]
+        ]
+    },
+    {
+        "id": "da12904.01c1c7",
+        "type": "comment",
+        "z": "6f4f16a8.478b18",
+        "name": "deletes the master folder",
+        "info": "",
+        "x": 950,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "a6861e23.957ab",
+        "type": "http response",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "statusCode": "200",
+        "headers": {},
+        "x": 740,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "c991b6c5.a416f8",
+        "type": "delay",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 120.02344131469727,
+        "y": 319.4375057220459,
+        "wires": [
+            [
+                "4da47fe5.ed034"
+            ]
+        ]
+    },
+    {
+        "id": "6ae94906.bc4998",
+        "type": "switch",
+        "z": "6f4f16a8.478b18",
+        "name": "xml action",
+        "property": "xml_parent",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "cms",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "pb",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 120,
+        "y": 640,
+        "wires": [
+            [
+                "6b6f5ca5.d54dd4"
+            ],
+            [
+                "5a0bac9c.cea274"
+            ]
+        ]
+    },
+    {
+        "id": "5a0bac9c.cea274",
+        "type": "function",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "func": "var folder_name = flow.get(\"package_id\");\nvar fullpath = \"/home/pi/MB/OES/\"+folder_name + \"/XML.xml\";\nmsg.filename = fullpath;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 490,
+        "y": 640,
+        "wires": [
+            [
+                "490ace68.a58c8"
+            ]
+        ]
+    },
+    {
+        "id": "490ace68.a58c8",
+        "type": "file in",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "filename": "",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 630,
+        "y": 640,
+        "wires": [
+            [
+                "39d23456.6cec3c"
+            ]
+        ]
+    },
+    {
+        "id": "39d23456.6cec3c",
+        "type": "function",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "func": "var xml = msg.payload;\nvar numOf = xml.match(/(?:https?|ftp):\\/\\/[\\n\\S]+/g);\nvar numOf = xml.match(/(?:(?:https?|ftp|file):\\/\\/|www\\.|ftp\\.)(?:\\([-A-Z0-9+&@#\\/%=~_|$?!:,.]*\\)|[-A-Z0-9+&@#\\/%=~_|$?!:,.])*(?:\\([-A-Z0-9+&@#\\/%=~_|$?!:,.]*\\)|[A-Z0-9+&@#\\/%=~_|$])/igm);\nmsg.number = numOf;\n\nfor(var a=0;a<msg.number.length;a++){\n    msg.number[a] = msg.number[a].substring(msg.number[a].lastIndexOf('/')+1);\n}\nfor(var a=0;a<msg.number.length;a++){\n    xml = xml.replace(/(?:(?:https?|ftp|file):\\/\\/|www\\.|ftp\\.)(?:\\([-A-Z0-9+&@#\\/%=~_|$?!:,.]*\\)|[-A-Z0-9+&@#\\/%=~_|$?!:,.])*(?:\\([-A-Z0-9+&@#\\/%=~_|$?!:,.]*\\)|[A-Z0-9+&@#\\/%=~_|$])/im,\"http//192.168.0.2/master/\"+msg.number[a])\n}\nxml = xml.replace(/http/g,\"http:\")\nmsg.payload = xml\n//var replace = xml.replace(/(?:https?|ftp):\\/\\/[\\n\\S]+/g, '###');\n//msg.payload =b;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 790,
+        "y": 640,
+        "wires": [
+            [
+                "5eea445d.0621cc"
+            ]
+        ]
+    },
+    {
+        "id": "5eea445d.0621cc",
+        "type": "file",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "filename": "/home/pi/MB/XML.xml",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1000,
+        "y": 640,
+        "wires": [
+            [
+                "3099b2b0.13489e",
+                "de8c6659.cf48b8"
+            ]
+        ]
+    },
+    {
+        "id": "3099b2b0.13489e",
+        "type": "debug",
+        "z": "6f4f16a8.478b18",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1270,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "5649cf25.33b97",
+        "type": "comment",
+        "z": "6f4f16a8.478b18",
+        "name": "GET XML FROM CMS",
+        "info": "",
+        "x": 980,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "dd275c08.ca1d4",
+        "type": "comment",
+        "z": "6f4f16a8.478b18",
+        "name": "FETCH THE XML FROM THE FOLDER AND REPLACE",
+        "info": "",
+        "x": 1120,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "55ffb035.9a8b8",
+        "type": "function",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "func": "msg.payload = \"Checking for new mails\"\nglobal.set(\"new-mail\",false)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 330,
+        "y": 120,
+        "wires": [
+            [
+                "b58d1e90.7abcd",
+                "7f6c017.77c55"
+            ]
+        ]
+    },
+    {
+        "id": "b58d1e90.7abcd",
+        "type": "e-mail in",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "protocol": "IMAP",
+        "server": "imap.gmail.com",
+        "useSSL": true,
+        "port": "993",
+        "box": "INBOX",
+        "disposition": "Read",
+        "criteria": "UNSEEN",
+        "repeat": "60",
+        "fetch": "trigger",
+        "inputs": 1,
+        "x": 450,
+        "y": 100,
+        "wires": [
+            [
+                "9f71c727.66b1c8"
+            ]
+        ]
+    },
+    {
+        "id": "7f6c017.77c55",
+        "type": "delay",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 460,
+        "y": 160,
+        "wires": [
+            [
+                "99fff4a0.31dc08"
+            ]
+        ]
+    },
+    {
+        "id": "99fff4a0.31dc08",
+        "type": "switch",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "property": "new-mail",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 590,
+        "y": 160,
+        "wires": [
+            [
+                "205aad25.727b52"
+            ]
+        ]
+    },
+    {
+        "id": "205aad25.727b52",
+        "type": "function",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "func": "\nmsg.payload = []\nglobal.set(\"new-mail\",false)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 160,
+        "wires": [
+            [
+                "fb10ece3.40092",
+                "70dc6bdb.cb5414"
+            ]
+        ]
+    },
+    {
+        "id": "9f71c727.66b1c8",
+        "type": "function",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "func": "global.set(\"new-mail\",true)\nmsg.mode = \"manual\"\nmsg.timeout = 2000;\nmsg.parts = {\n    count:10,\n    \n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 590,
+        "y": 100,
+        "wires": [
+            [
+                "e644eff6.08735"
+            ]
+        ]
+    },
+    {
+        "id": "1b4ced94.fcd5b2",
+        "type": "e-mail",
+        "z": "b4cf743a.f109c8",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "secure": true,
+        "tls": true,
+        "name": "",
+        "dname": "",
+        "x": 520,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "865355e5.3f06e8",
+        "type": "watson-speech-to-text-v1-query-builder",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "password": "",
+        "apikey": "",
+        "stt-custom-mode": "createCustomisation",
+        "stt-custom-model-name": "",
+        "stt-base-model": "",
+        "base-model-hidden": "",
+        "stt-custom-model-description": "",
+        "stt-custom-id": "",
+        "stt-corpus-name": "",
+        "stt-word-name": "",
+        "stt-allow-overwrite": false,
+        "service-endpoint": "",
+        "x": 260,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3cf1dd78.43aba2",
+        "type": "watson-speech-to-text",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "alternatives": 1,
+        "speakerlabels": true,
+        "smartformatting": false,
+        "lang": "",
+        "langhidden": "",
+        "langcustom": "",
+        "langcustomhidden": "",
+        "custom-weight": "0.5",
+        "band": "",
+        "bandhidden": "",
+        "keywords": "",
+        "keywords-threshold": "0.5",
+        "word-confidence": false,
+        "password": "",
+        "apikey": "",
+        "payload-response": false,
+        "streaming-mode": false,
+        "streaming-mute": true,
+        "auto-connect": false,
+        "discard-listening": false,
+        "disable-precheck": false,
+        "service-endpoint": "",
+        "x": 160,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "37e6ac23.e5c614",
+        "type": "http in",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "url": "/inbox",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 100,
+        "wires": [
+            [
+                "7cd6605a.e3e57"
+            ]
+        ]
+    },
+    {
+        "id": "98604d94.a927c",
+        "type": "http response",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 850,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "fb10ece3.40092",
+        "type": "debug",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 850,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "e644eff6.08735",
+        "type": "join",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "5",
+        "count": "15",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 710,
+        "y": 100,
+        "wires": [
+            [
+                "fb10ece3.40092",
+                "98604d94.a927c"
+            ]
+        ]
+    },
+    {
+        "id": "7fb58dc6.7ca394",
+        "type": "http in",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "url": "/sendmail",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 100,
+        "y": 520,
+        "wires": [
+            [
+                "8702158c.56e2b8",
+                "87cd23a8.1ed11"
+            ]
+        ]
+    },
+    {
+        "id": "59f04502.8d53ac",
+        "type": "e-mail",
+        "z": "b4cf743a.f109c8",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "secure": true,
+        "tls": true,
+        "name": "",
+        "dname": "",
+        "x": 850,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "49708377.bb5a6c",
+        "type": "function",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "func": "var topic = msg.payload.subject;\nvar payload = msg.payload.body + \" /nThis is a mail sent from EMAIL SOFTWARE FOR VISUALLY IMPAIRED PEOPLE\";\nvar to = msg.payload.tomail ;\nmsg.topic = topic;\nmsg.payload={}\nmsg.payload = payload;\nmsg.to = to;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 460,
+        "wires": [
+            [
+                "59f04502.8d53ac",
+                "340ce487.d3c1bc"
+            ]
+        ]
+    },
+    {
+        "id": "340ce487.d3c1bc",
+        "type": "http response",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 850,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "70dc6bdb.cb5414",
+        "type": "http response",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 850,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "5d4e8811.60eec8",
+        "type": "uibuilder",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "topic": "",
+        "url": "uibuilder",
+        "fwdInMessages": false,
+        "allowScripts": false,
+        "allowStyles": false,
+        "copyIndex": true,
+        "showfolder": false,
+        "x": 1220,
+        "y": 220,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "447c20f8.8cf4c",
+        "type": "websocket out",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "server": "59c18efa.7d123",
+        "x": 1000,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "23646022.e374e",
+        "type": "function",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "func": "// The received message is stored in 'msg'\n// It will have at least a 'payload' property:\n//   console.log(msg.payload);\n// The 'context' object is available to store state\n// between invocations of the function\n//   context = {};\ncontext.global.location = msg.payload;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 761,
+        "y": 754,
+        "wires": [
+            [
+                "447c20f8.8cf4c"
+            ]
+        ]
+    },
+    {
+        "id": "c8b57aad.a679a8",
+        "type": "websocket in",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "server": "59c18efa.7d123",
+        "x": 590,
+        "y": 814,
+        "wires": [
+            [
+                "cebd6e4b.0944c"
+            ]
+        ]
+    },
+    {
+        "id": "cebd6e4b.0944c",
+        "type": "function",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "func": "// The received message is stored in 'msg'\n// It will have at least a 'payload' property:\n//   console.log(msg.payload);\n// The 'context' object is available to store state\n// between invocations of the function\n//   context = {};\n\nmsg.payload = context.global.location;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 763,
+        "y": 820,
+        "wires": [
+            [
+                "447c20f8.8cf4c"
+            ]
+        ]
+    },
+    {
+        "id": "4d281896.f2f668",
+        "type": "debug",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "active": false,
+        "console": false,
+        "complete": false,
+        "x": 890,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "ddabb1d.913d75",
+        "type": "inject",
+        "z": "f00c058d.eb6558",
+        "name": "Array of Co-ords",
+        "topic": "",
+        "payload": "[{\"lat\":54.9619349,\"lng\":-1.6003813},{\"lat\":54.9656694,\"lng\":-1.5239833},{\"lat\":54.9696456,\"lng\":-1.5069755},{\"lat\":54.9378907,\"lng\":-1.5273729}]",
+        "payloadType": "str",
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "x": 553,
+        "y": 703,
+        "wires": [
+            [
+                "23646022.e374e",
+                "4d281896.f2f668"
+            ]
+        ]
+    },
+    {
+        "id": "bb87ebf7.2f4818",
+        "type": "inject",
+        "z": "f00c058d.eb6558",
+        "name": "Single Co-ord",
+        "topic": "",
+        "payload": "[{\"lat\":54.9696456,\"lng\":-1.5069755}]",
+        "payloadType": "str",
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "4",
+        "x": 543,
+        "y": 749,
+        "wires": [
+            [
+                "23646022.e374e"
+            ]
+        ]
+    },
+    {
+        "id": "f05be1ea.a8d3e",
+        "type": "function",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "func": "msg.topic=\"screen\"\nflow.set(\"screen\",msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 970,
+        "y": 220,
+        "wires": [
+            [
+                "5d4e8811.60eec8"
+            ]
+        ]
+    },
+    {
+        "id": "c621994a.b13b98",
+        "type": "inject",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "topic": "",
+        "payload": "map",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 470,
+        "y": 160,
+        "wires": [
+            [
+                "c111b1b1.10c8d"
+            ]
+        ]
+    },
+    {
+        "id": "3ad6fd55.ba4af2",
+        "type": "inject",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "topic": "",
+        "payload": "image",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 470,
+        "y": 240,
+        "wires": [
+            [
+                "c111b1b1.10c8d"
+            ]
+        ]
+    },
+    {
+        "id": "5b092150.a16d2",
+        "type": "inject",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "topic": "",
+        "payload": "video",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 470,
+        "y": 280,
+        "wires": [
+            [
+                "c111b1b1.10c8d"
+            ]
+        ]
+    },
+    {
+        "id": "aea65b9f.44c898",
+        "type": "inject",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "topic": "",
+        "payload": "text",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 470,
+        "y": 200,
+        "wires": [
+            [
+                "c111b1b1.10c8d"
+            ]
+        ]
+    },
+    {
+        "id": "d6b218b8.318d88",
+        "type": "inject",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "topic": "",
+        "payload": "text",
+        "payloadType": "str",
+        "repeat": "18000",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 490,
+        "y": 100,
+        "wires": [
+            [
+                "27eb20d2.d3e8e",
+                "5bb33f7.406b6c"
+            ]
+        ]
+    },
+    {
+        "id": "5bb33f7.406b6c",
+        "type": "function",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "func": "var screen = flow.get(\"screen\");\nif(screen == \"image\")\nmsg.payload = \"video\";\nelse if(screen == \"video\")\nmsg.payload = \"map\";\nelse if(screen == \"map\")\nmsg.payload = \"text\";\nelse if(screen == \"text\")\nmsg.payload = \"image\";\nelse\nmsg.payload = \"image\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 650,
+        "y": 100,
+        "wires": [
+            [
+                "b73a49a5.da6cc8",
+                "c111b1b1.10c8d"
+            ]
+        ]
+    },
+    {
+        "id": "b73a49a5.da6cc8",
+        "type": "debug",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 990,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "27eb20d2.d3e8e",
+        "type": "function",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "func": "msg={\n    topic:\"cletimer\",\n    payload:msg.payload\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 650,
+        "y": 140,
+        "wires": [
+            [
+                "5d4e8811.60eec8"
+            ]
+        ]
+    },
+    {
+        "id": "298366e7.d17c8a",
+        "type": "function",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "func": "msg={\n    topic:\"inctimer\",\n    payload:msg.payload\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 650,
+        "y": 340,
+        "wires": [
+            [
+                "5d4e8811.60eec8"
+            ]
+        ]
+    },
+    {
+        "id": "694f905d.c4682",
+        "type": "inject",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "topic": "",
+        "payload": "text",
+        "payloadType": "str",
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 490,
+        "y": 340,
+        "wires": [
+            [
+                "298366e7.d17c8a"
+            ]
+        ]
+    },
+    {
+        "id": "6e86feb2.660ca",
+        "type": "xml",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 893,
+        "y": 543,
+        "wires": [
+            [
+                "660fc76e.ece0d8"
+            ]
+        ]
+    },
+    {
+        "id": "3063e5d9.b0136a",
+        "type": "file in",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "filename": "D:/XML.xml",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 733,
+        "y": 543,
+        "wires": [
+            [
+                "6e86feb2.660ca"
+            ]
+        ]
+    },
+    {
+        "id": "a86e0b4c.528f58",
+        "type": "inject",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "topic": "video",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 523,
+        "y": 503,
+        "wires": [
+            [
+                "3063e5d9.b0136a"
+            ]
+        ]
+    },
+    {
+        "id": "ac74fd6a.58f",
+        "type": "debug",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 1030,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "620db62b.f1bf78",
+        "type": "function",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "func": "var xml = msg.payload;\nvar numOf = xml.match(/(?:https?|ftp):\\/\\/[\\n\\S]+/g);\nvar numOf = xml.match(/(?:(?:https?|ftp|file):\\/\\/|www\\.|ftp\\.)(?:\\([-A-Z0-9+&@#\\/%=~_|$?!:,.]*\\)|[-A-Z0-9+&@#\\/%=~_|$?!:,.])*(?:\\([-A-Z0-9+&@#\\/%=~_|$?!:,.]*\\)|[A-Z0-9+&@#\\/%=~_|$])/igm);\nmsg.number = numOf;\n\nfor(var a=0;a<msg.number.length;a++){\n    msg.number[a] = msg.number[a].substring(msg.number[a].lastIndexOf('/')+1);\n}\nfor(var a=0;a<msg.number.length;a++){\n    xml = xml.replace(/(?:(?:https?|ftp|file):\\/\\/|www\\.|ftp\\.)(?:\\([-A-Z0-9+&@#\\/%=~_|$?!:,.]*\\)|[-A-Z0-9+&@#\\/%=~_|$?!:,.])*(?:\\([-A-Z0-9+&@#\\/%=~_|$?!:,.]*\\)|[A-Z0-9+&@#\\/%=~_|$])/im,\"http//192.168.43.106/raushan/\"+msg.number[a])\n}\nxml = xml.replace(/http/g,\"http:\")\nmsg.payload = xml\n//var replace = xml.replace(/(?:https?|ftp):\\/\\/[\\n\\S]+/g, '###');\n//msg.payload =b;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1293,
+        "y": 543,
+        "wires": [
+            [
+                "c4ebea58.589c28"
+            ]
+        ]
+    },
+    {
+        "id": "e7b5fd2b.ff7f6",
+        "type": "split",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 1153,
+        "y": 543,
+        "wires": [
+            [
+                "620db62b.f1bf78"
+            ]
+        ]
+    },
+    {
+        "id": "c4ebea58.589c28",
+        "type": "join",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "mode": "auto",
+        "build": "string",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": "false",
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "x": 1433,
+        "y": 543,
+        "wires": [
+            [
+                "f58994de.8def88"
+            ]
+        ]
+    },
+    {
+        "id": "f58994de.8def88",
+        "type": "function",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "func": "var result =[];\nif(msg.topic === \"video\"){\n    for(var a=0;a< msg.payload.length;a++){\n        if(msg.payload[a].indexOf(\".m3u8\")){\n            result.push(msg.payload[a])\n        }\n    }\n}\nelse if(msg.topic === \"image\"){\n    for(var a=0;a< msg.payload.length;a++){\n        if(msg.payload[a].toLowerCase().indexOf(\".jpg\") > -1 || msg.payload[a].toLowerCase().indexOf(\".png\")> -1 || msg.payload[a].toLowerCase().indexOf(\".jpeg\")> -1 ){\n            result.push(msg.payload[a])\n        }\n    }\n}\n msg.payload = result;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 733,
+        "y": 603,
+        "wires": [
+            [
+                "604e6b10.27e734"
+            ]
+        ]
+    },
+    {
+        "id": "b0c6bbe2.a34448",
+        "type": "inject",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "topic": "image",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 523,
+        "y": 543,
+        "wires": [
+            [
+                "3063e5d9.b0136a"
+            ]
+        ]
+    },
+    {
+        "id": "604e6b10.27e734",
+        "type": "function",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "func": "//gonna have two variable to track current video and current image\n\nvar topic = msg.topic;\nvar current;\nif(topic == \"video\"){\n    current = flow.get(\"cvideo\")\n}else if(topic == \"image\"){\n    current = flow.get(\"cimage\")\n}\n\n//current = parseInt(current);\nif(current >= msg.payload.length || isNaN(current) || current === undefined || current === null){\n    current = 0;\n}\n\n var nxt = current + 1;\nif(topic == \"video\"){\n     flow.set(\"cvideo\",nxt)\n}else if(topic == \"image\"){\n     flow.set(\"cimage\",nxt)\n}\nmsg.payload =msg.payload[current];\nmsg.slide = current;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 873,
+        "y": 603,
+        "wires": [
+            [
+                "ac74fd6a.58f",
+                "5420d70e.445dc8"
+            ]
+        ]
+    },
+    {
+        "id": "660fc76e.ece0d8",
+        "type": "function",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "func": "var bigObject = msg.payload.Root.NavBar[0].Items[0].Item;\nvar bigResult =[];\nvar refined = [];\nvar onlyHdmiObj = [];\nvar onlyHdmi = [];\nfor(var a=0;a<bigObject.length;a++){\n    if(bigObject[a].Categories[0].Category)\n    bigResult.push(bigObject[a].Categories[0].Category)\n}\nfor(var a=0;a<bigResult.length;a++){\n    if(bigResult[a])\n    for(var b=0;b<bigResult[a].length;b++){\n        refined.push(bigResult[a][b].Contents[0].Content)\n    }\n}\nfor(var a=0;a<refined.length;a++){\n    if(refined[a])\n    for(var b=0;b<refined[a].length;b++){\n        if(refined[a][b])\n       onlyHdmiObj.push(refined[a][b])\n    }\n}\nfor( var a=0;a<onlyHdmiObj.length;a++){\n    if(onlyHdmiObj[a].displayOnHdmi[0]===\"true\"){\n        onlyHdmi.push(onlyHdmiObj[a].url[0])\n    }\n    \n}\nmsg.payload = onlyHdmi;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1013,
+        "y": 543,
+        "wires": [
+            [
+                "e7b5fd2b.ff7f6"
+            ]
+        ]
+    },
+    {
+        "id": "7ef0de2c.4f725",
+        "type": "comment",
+        "z": "f00c058d.eb6558",
+        "name": "Nerupu kumar video/image fetcher",
+        "info": "Advanced url fetcher. Directly reads xml and issues the videos and images url in round robin mechanism\n",
+        "x": 783,
+        "y": 503,
+        "wires": []
+    },
+    {
+        "id": "c111b1b1.10c8d",
+        "type": "switch",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "video",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "image",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 770,
+        "y": 220,
+        "wires": [
+            [
+                "9114e5d8.89a2d8"
+            ],
+            [
+                "9114e5d8.89a2d8"
+            ],
+            [
+                "f05be1ea.a8d3e"
+            ]
+        ]
+    },
+    {
+        "id": "9114e5d8.89a2d8",
+        "type": "function",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "func": "msg.topic = msg.payload; //conversion\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 440,
+        "wires": [
+            [
+                "3063e5d9.b0136a"
+            ]
+        ]
+    },
+    {
+        "id": "5420d70e.445dc8",
+        "type": "function",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "func": "msg.url = msg.payload;\nmsg.payload = msg.topic;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 970,
+        "y": 440,
+        "wires": [
+            [
+                "f05be1ea.a8d3e",
+                "a0c6d8ff.3e7bb8"
+            ]
+        ]
+    },
+    {
+        "id": "7b1bf811.6c2148",
+        "type": "comment",
+        "z": "f00c058d.eb6558",
+        "name": "Aboorva pathai for videos and images",
+        "info": "Videos and images follow special path to fecth msg.url ( other categories dont wantt this ex. maps and text)",
+        "x": 830,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "a0c6d8ff.3e7bb8",
+        "type": "debug",
+        "z": "f00c058d.eb6558",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 1060,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "8702158c.56e2b8",
+        "type": "debug",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 330,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "7cd6605a.e3e57",
+        "type": "switch",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "property": "req.query.emailid",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "voiceemailtest@gmail.com*ironmanstark",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 170,
+        "y": 180,
+        "wires": [
+            [
+                "55ffb035.9a8b8"
+            ],
+            [
+                "901f60de.cab51"
+            ]
+        ]
+    },
+    {
+        "id": "28a88d08.6f8072",
+        "type": "comment",
+        "z": "b4cf743a.f109c8",
+        "name": "voiceemailtest@gmail.com",
+        "info": "",
+        "x": 490,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "48aa8766.f92738",
+        "type": "http response",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 450,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "901f60de.cab51",
+        "type": "function",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "func": "msg.payload = \"wrong\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 280,
+        "wires": [
+            [
+                "48aa8766.f92738"
+            ]
+        ]
+    },
+    {
+        "id": "49a28d28.0f31f4",
+        "type": "function",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "func": "msg.payload = \"wrong\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 580,
+        "wires": [
+            [
+                "88df75f6.4d2468"
+            ]
+        ]
+    },
+    {
+        "id": "88df75f6.4d2468",
+        "type": "http response",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 590,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "87cd23a8.1ed11",
+        "type": "switch",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "property": "req.query.emailid",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "voiceemailtest@gmail.com*ironmanstark",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 330,
+        "y": 540,
+        "wires": [
+            [
+                "49708377.bb5a6c"
+            ],
+            [
+                "49a28d28.0f31f4"
+            ]
+        ]
+    }
+]
