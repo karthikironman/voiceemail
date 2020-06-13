@@ -1,0 +1,483 @@
+[
+    {
+        "id": "b4cf743a.f109c8",
+        "type": "tab",
+        "label": "voice-based-email-system",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "55ffb035.9a8b8",
+        "type": "function",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "func": "msg.payload = \"Checking for new mails\"\nglobal.set(\"new-mail\",false)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 330,
+        "y": 120,
+        "wires": [
+            [
+                "b58d1e90.7abcd",
+                "7f6c017.77c55"
+            ]
+        ]
+    },
+    {
+        "id": "b58d1e90.7abcd",
+        "type": "e-mail in",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "protocol": "IMAP",
+        "server": "imap.gmail.com",
+        "useSSL": true,
+        "port": "993",
+        "box": "INBOX",
+        "disposition": "Read",
+        "criteria": "UNSEEN",
+        "repeat": "60",
+        "fetch": "trigger",
+        "inputs": 1,
+        "x": 450,
+        "y": 100,
+        "wires": [
+            [
+                "9f71c727.66b1c8"
+            ]
+        ]
+    },
+    {
+        "id": "7f6c017.77c55",
+        "type": "delay",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 460,
+        "y": 160,
+        "wires": [
+            [
+                "99fff4a0.31dc08"
+            ]
+        ]
+    },
+    {
+        "id": "99fff4a0.31dc08",
+        "type": "switch",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "property": "new-mail",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 590,
+        "y": 160,
+        "wires": [
+            [
+                "205aad25.727b52"
+            ]
+        ]
+    },
+    {
+        "id": "205aad25.727b52",
+        "type": "function",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "func": "\nmsg.payload = []\nglobal.set(\"new-mail\",false)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 160,
+        "wires": [
+            [
+                "fb10ece3.40092",
+                "70dc6bdb.cb5414"
+            ]
+        ]
+    },
+    {
+        "id": "9f71c727.66b1c8",
+        "type": "function",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "func": "global.set(\"new-mail\",true)\nmsg.mode = \"manual\"\nmsg.timeout = 2000;\nmsg.parts = {\n    count:10,\n    \n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 590,
+        "y": 100,
+        "wires": [
+            [
+                "e644eff6.08735"
+            ]
+        ]
+    },
+    {
+        "id": "1b4ced94.fcd5b2",
+        "type": "e-mail",
+        "z": "b4cf743a.f109c8",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "secure": true,
+        "tls": true,
+        "name": "",
+        "dname": "",
+        "x": 520,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "865355e5.3f06e8",
+        "type": "watson-speech-to-text-v1-query-builder",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "password": "",
+        "apikey": "",
+        "stt-custom-mode": "createCustomisation",
+        "stt-custom-model-name": "",
+        "stt-base-model": "",
+        "base-model-hidden": "",
+        "stt-custom-model-description": "",
+        "stt-custom-id": "",
+        "stt-corpus-name": "",
+        "stt-word-name": "",
+        "stt-allow-overwrite": false,
+        "service-endpoint": "",
+        "x": 260,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3cf1dd78.43aba2",
+        "type": "watson-speech-to-text",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "alternatives": 1,
+        "speakerlabels": true,
+        "smartformatting": false,
+        "lang": "",
+        "langhidden": "",
+        "langcustom": "",
+        "langcustomhidden": "",
+        "custom-weight": "0.5",
+        "band": "",
+        "bandhidden": "",
+        "keywords": "",
+        "keywords-threshold": "0.5",
+        "word-confidence": false,
+        "password": "",
+        "apikey": "",
+        "payload-response": false,
+        "streaming-mode": false,
+        "streaming-mute": true,
+        "auto-connect": false,
+        "discard-listening": false,
+        "disable-precheck": false,
+        "service-endpoint": "",
+        "x": 160,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "37e6ac23.e5c614",
+        "type": "http in",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "url": "/inbox",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 100,
+        "wires": [
+            [
+                "7cd6605a.e3e57"
+            ]
+        ]
+    },
+    {
+        "id": "98604d94.a927c",
+        "type": "http response",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 850,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "fb10ece3.40092",
+        "type": "debug",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 850,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "e644eff6.08735",
+        "type": "join",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "5",
+        "count": "15",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 710,
+        "y": 100,
+        "wires": [
+            [
+                "fb10ece3.40092",
+                "98604d94.a927c"
+            ]
+        ]
+    },
+    {
+        "id": "7fb58dc6.7ca394",
+        "type": "http in",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "url": "/sendmail",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 100,
+        "y": 520,
+        "wires": [
+            [
+                "8702158c.56e2b8",
+                "87cd23a8.1ed11"
+            ]
+        ]
+    },
+    {
+        "id": "59f04502.8d53ac",
+        "type": "e-mail",
+        "z": "b4cf743a.f109c8",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "secure": true,
+        "tls": true,
+        "name": "",
+        "dname": "",
+        "x": 850,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "49708377.bb5a6c",
+        "type": "function",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "func": "var topic = msg.payload.subject;\nvar payload = msg.payload.body + \" /nThis is a mail sent from EMAIL SOFTWARE FOR VISUALLY IMPAIRED PEOPLE\";\nvar to = msg.payload.tomail ;\nmsg.topic = topic;\nmsg.payload={}\nmsg.payload = payload;\nmsg.to = to;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 460,
+        "wires": [
+            [
+                "59f04502.8d53ac",
+                "340ce487.d3c1bc"
+            ]
+        ]
+    },
+    {
+        "id": "340ce487.d3c1bc",
+        "type": "http response",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 850,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "70dc6bdb.cb5414",
+        "type": "http response",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 850,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "8702158c.56e2b8",
+        "type": "debug",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 330,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "7cd6605a.e3e57",
+        "type": "switch",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "property": "req.query.emailid",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "voiceemailtest@gmail.com*ironmanstark",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 170,
+        "y": 180,
+        "wires": [
+            [
+                "55ffb035.9a8b8"
+            ],
+            [
+                "901f60de.cab51"
+            ]
+        ]
+    },
+    {
+        "id": "28a88d08.6f8072",
+        "type": "comment",
+        "z": "b4cf743a.f109c8",
+        "name": "voiceemailtest@gmail.com",
+        "info": "",
+        "x": 490,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "48aa8766.f92738",
+        "type": "http response",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 450,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "901f60de.cab51",
+        "type": "function",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "func": "msg.payload = \"wrong\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 280,
+        "wires": [
+            [
+                "48aa8766.f92738"
+            ]
+        ]
+    },
+    {
+        "id": "49a28d28.0f31f4",
+        "type": "function",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "func": "msg.payload = \"wrong\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 580,
+        "wires": [
+            [
+                "88df75f6.4d2468"
+            ]
+        ]
+    },
+    {
+        "id": "88df75f6.4d2468",
+        "type": "http response",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 590,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "87cd23a8.1ed11",
+        "type": "switch",
+        "z": "b4cf743a.f109c8",
+        "name": "",
+        "property": "req.query.emailid",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "voiceemailtest@gmail.com*ironmanstark",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 330,
+        "y": 540,
+        "wires": [
+            [
+                "49708377.bb5a6c"
+            ],
+            [
+                "49a28d28.0f31f4"
+            ]
+        ]
+    }
+]
